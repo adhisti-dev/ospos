@@ -1,2 +1,13 @@
 .env
 /.htaccess
+/public/.htaccess
+/vendor/codeigniter4/framework/writable/
+
+writable/debugbar/*
+writable/cache/*
+writable/logs/*
+writable/session/*
+!writable/debugbar/index.html
+!writable/cache/index.html
+!writable/logs/index.html
+!writable/session/index.html
