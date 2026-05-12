@@ -46,7 +46,7 @@
                 <?php endif; ?>
             </div>
             <section class="box-login d-flex flex-column justify-content-center align-items-center p-md-4">
-                    TEST
+                    TEST OK
                 <?= form_open('login') ?>
                 <h3 class="text-center m-0"><?= lang('Login.welcome', [lang('Common.software_short')]) ?></h3>
                 <?php if ($has_errors): ?>
